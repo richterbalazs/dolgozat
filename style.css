@@ -1,0 +1,61 @@
+body {
+	background-image: url("kepek/black.png");
+}
+
+.kep1 {
+	width: 100%;
+}
+
+#tarolo {
+	width: 60%;
+	max-width:900px;
+	margin: auto;
+	background-color: grey;
+	padding: 10px;
+}
+
+/*menü formázása*/
+.menu li {
+	list-style-type:none;
+}
+	
+.menu ul {
+	padding:0;
+}
+
+#menu a {
+	text-decoration:none;
+}
+
+#menu a:link {
+	color: white;
+}
+
+#menu a:visited {
+	color: red;
+}
+
+#menu a:hover {
+	color: orange;
+}
+
+#menu a:active{
+	background-color: purple;
+}
+
+#oldalkep {
+	width: 200px;
+	float: right;
+}
+
+.usztatas {
+	/**megszünteti a jobbra-balra úsztatást**/
+	clear:both;
+}
+
+.lablec {
+	text-align: center;
+	border-style: none;
+	background-color: orange;
+	color: black;
+}
